@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
-
+import 'package:provider/provider.dart';
 import 'package:readify/pages/mainpage.dart';
+import 'package:readify/provider/provider.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  runApp(MyApp());
+  runApp(MultiProvider(
+      providers: [ChangeNotifierProvider(create: (_) => Handler())]));
 }
 
 class MyApp extends StatefulWidget {

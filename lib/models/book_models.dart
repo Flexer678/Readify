@@ -18,6 +18,6 @@ class BookModel {
   }
 
   BookModel.libgen(Map<String, dynamic> json) {
-    title = json[''];
+    title = json['title '];
   }
 }
