@@ -25,8 +25,9 @@ class _MainPageState extends State<MainPage> {
           currentIndex: index,
           items: [
             const BottomNavigationBarItem(
-                label: "home", icon: Icon(Icons.home)),
-            BottomNavigationBarItem(label: "Search", icon: Icon(Icons.search)),
+                label: "Library", icon: Icon(Icons.library_books)),
+            BottomNavigationBarItem(
+                label: "Search", icon: const Icon(Icons.search)),
             BottomNavigationBarItem(label: "Acccount", icon: Icon(Icons.person))
           ]),
       body: pages[index],

@@ -12,12 +12,22 @@ class BookModel {
 
   BookModel.dbooks(Map<String, dynamic> json) {
     title = json['title'];
-    authors = json['title'];
+    authors = json['authors'];
     image = json['image'];
-    url = json['url'];
+    url = json['id'];
   }
 
   BookModel.libgen(Map<String, dynamic> json) {
-    title = json['title '];
+    title = json['title'];
+    authors = json["author"];
+    image = json["img"];
+    url = json["url_number"];
+  }
+
+  BookModel.libgenFic(Map<String, dynamic> json) {
+    title = json['title'];
+    authors = json["author"];
+    image = json["img"];
+    url = json["url_number"];
   }
 }
