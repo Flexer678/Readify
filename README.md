@@ -21,5 +21,6 @@ search up books with the three apis
 
 
 
+#maybe more coming soon
 ![image](https://github.com/Flexer678/Readify/assets/81823862/0d92aadf-c4f9-431b-9955-eba761d020b3)
-![image](https://github.com/Flexer678/Readify/assets/81823862/528128df-3d69-4a0e-84e2-71938e859d1f)
+
